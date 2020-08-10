@@ -1,0 +1,133 @@
+body {
+  background: #e5e6e5;
+  margin: 0px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 200px;
+  margin: 10px;
+}
+
+.Nav__container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: zeitung-mono, cronos-pro, lato, sans-serif;
+  padding: 2vw 2vw;
+  max-height: 30px;
+}
+
+.Nav__anchor-box {
+  transform: skew(-20deg);
+  display: flex;
+}
+
+.Nav__anchor {
+  color: rgb(40, 16, 15);
+  text-decoration: none;
+}
+
+.Nav__anchor-text {
+  transform: skew(20deg);
+  margin: 0;
+  padding: 0 2vw;
+}
+
+.Nav__slash {
+  transform: skew(-20deg);
+  margin: 0 0.5vw;
+  width: 2px;
+  background: rgb(40, 16, 15);
+}
+
+.Nav__anchor-box:hover {
+  background: rgb(65, 104, 172);
+}
+
+.Nav__anchor-box .Nav__anchor:hover {
+  color: rgb(255, 255, 255);
+}
+
+.Breadcrumbs {
+  font-family: zeitung-mono, cronos-pro, lato, sans-serif;
+  background: rgb(40, 16, 15);
+  color: rgb(255, 255, 255);
+  padding: 1em;
+}
+
+.Hero__main {
+  background: url("./assets/theater-background-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Hero__title {
+  font-family: cronos-pro, zeitung-mono, lato, sans-serif;
+  font-size: 60px;
+  color: rgba(40, 16, 15, 1);
+  margin: 5vh 0 5vh 20vw;
+}
+.Hero__text {
+  font-family: cronos-pro, zeitung-mono, lato, sans-serif;
+  font-size: 30px;
+  color: rgba(40, 16, 15, 1);
+  margin: 60px;
+}
+.Lessons__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+.Lessons__thumbnail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 300px;
+  height: 168px;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+.wangari-thumbnail {
+    background: url("./assets/wangari-thumbnail.jpg");
+    background-size: cover;
+}
+.earthSystems-thumbnail {
+    background: url("./assets/earthSystems.png");
+    background-size: cover;
+}
+.play-icon {
+  fill: rgba(40, 16, 15, .8);
+}
+.Lessons__thumbnail:hover {
+  opacity: 1;
+}
+.Lessons__text {
+  margin: 0 16px;
+}
+.Lessons__heading {
+  font-family: zeitung-mono, cronos-pro, lato, sans-serif;
+  font-size: 20px;
+  color: rgba(40, 16, 15, 1);
+  margin: 0 0;
+}
+
+.Lessons__description {
+  font-family: lato, zeitung-mono, cronos-pro, sans-serif;
+  font-size: 18px;
+  color: rgba(40, 16, 15, 1);
+}
+.Lessons__objective {
+  font-weight: bold;
+  font-family: lato, zeitung-mono, cronos-pro, sans-serif;
+  font-size: 18px;
+  color: rgba(40, 16, 15, 1);
+}
+.ppt-logo {
+  width: 50px;
+  fill: rgba(40, 16, 15, 1);
+}
