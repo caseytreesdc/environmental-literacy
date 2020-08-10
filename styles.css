@@ -65,17 +65,18 @@ body {
   background-size: cover;
   height: 300px; */
 }
+
 .Hero__title {
-  font-family: cronos-pro, zeitung-mono, lato, sans-serif;
-  font-size: 50px;
+  font-family: lato, cronos-pro, zeitung-mono, sans-serif;
+  font-size: 40px;
   color: rgba(40, 16, 15, 1);
-  margin: 5vh 0 5vh 20vw;
+  margin: 12px 0px 0px 50px;
 }
 .Hero__text {
   font-family: cronos-pro, zeitung-mono, lato, sans-serif;
   font-size: 30px;
   color: rgba(40, 16, 15, 1);
-  margin: 56px;
+  margin: 20px 60px;
 }
 .Lessons {
   margin: 50px;
@@ -97,28 +98,28 @@ body {
   opacity: 0.75;
 }
 .wangari-thumbnail {
-  background: url("./assets/wangari-thumbnail.jpg");
+  background: url("./assets/thumbnails/wangari-thumbnail.jpg");
   background-size: cover;
 }
 .earthSystems-thumbnail {
-  background: url("./assets/earthSystems-thumbnail.png");
+  background: url("./assets/thumbnails/earthSystems-thumbnail.png");
   background-size: cover;
 }
 .air-thumbnail {
-  background: url("./assets/air-thumbnail.png");
+  background: url("./assets/thumbnails/air-thumbnail.png");
   background-size: cover;
 }
 
 .detective-thumbnail {
-  background: url("./assets/detective-thumbnail.jpg");
+  background: url("./assets/thumbnails/detective-thumbnail.jpg");
   background-size: cover;
 }
 .arborist-thumbnail {
-  background: url("./assets/arborist-thumbnail.jpg");
+  background: url("./assets/thumbnails/arborist-thumbnail.jpg");
   background-size: cover;
 }
 .play-icon {
-  fill: rgba(40, 16, 15, 1);
+  fill: rgb(229, 230, 229, 0.8);
 }
 .Lessons__thumbnail:hover {
   opacity: 1;
@@ -151,10 +152,47 @@ body {
 }
 .ppt-logo {
   width: 50px;
+  fill: rgba(40, 16, 15, 0.6);
+}
+.ppt-logo:hover {
+  width: 50px;
   fill: rgba(40, 16, 15, 1);
 }
 
 .pdf-logo {
   width: 50px;
   fill: rgba(40, 16, 15, 1);
+}
+
+.Partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Partners__title {
+  font-family: lato, cronos-pro, zeitung-mono, sans-serif;
+  font-size: 30px;
+  color: rgba(40, 16, 15, 1);
+  margin: 12px 0px 0px 50px;
+}
+.Partners__logos-orgs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Partners__logos-schools {
+  width: 75vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.elag-map__iframe {
+  border: none;
+  margin: 10px;
 }
