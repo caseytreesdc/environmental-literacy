@@ -60,13 +60,14 @@ body {
 }
 
 .Hero__main {
-  background: url("./assets/theater-background-3.jpg");
+  /* background: url("./assets/theater-background-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 300px; */
 }
 .Hero__title {
   font-family: cronos-pro, zeitung-mono, lato, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   color: rgba(40, 16, 15, 1);
   margin: 5vh 0 5vh 20vw;
 }
@@ -74,7 +75,10 @@ body {
   font-family: cronos-pro, zeitung-mono, lato, sans-serif;
   font-size: 30px;
   color: rgba(40, 16, 15, 1);
-  margin: 60px;
+  margin: 56px;
+}
+.Lessons {
+  margin: 50px;
 }
 .Lessons__container {
   display: flex;
@@ -90,18 +94,31 @@ body {
   min-width: 300px;
   height: 168px;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 .wangari-thumbnail {
-    background: url("./assets/wangari-thumbnail.jpg");
-    background-size: cover;
+  background: url("./assets/wangari-thumbnail.jpg");
+  background-size: cover;
 }
 .earthSystems-thumbnail {
-    background: url("./assets/earthSystems.png");
-    background-size: cover;
+  background: url("./assets/earthSystems-thumbnail.png");
+  background-size: cover;
+}
+.air-thumbnail {
+  background: url("./assets/air-thumbnail.png");
+  background-size: cover;
+}
+
+.detective-thumbnail {
+  background: url("./assets/detective-thumbnail.jpg");
+  background-size: cover;
+}
+.arborist-thumbnail {
+  background: url("./assets/arborist-thumbnail.jpg");
+  background-size: cover;
 }
 .play-icon {
-  fill: rgba(40, 16, 15, .8);
+  fill: rgba(40, 16, 15, 1);
 }
 .Lessons__thumbnail:hover {
   opacity: 1;
@@ -127,7 +144,17 @@ body {
   font-size: 18px;
   color: rgba(40, 16, 15, 1);
 }
+.logo-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .ppt-logo {
+  width: 50px;
+  fill: rgba(40, 16, 15, 1);
+}
+
+.pdf-logo {
   width: 50px;
   fill: rgba(40, 16, 15, 1);
 }
