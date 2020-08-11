@@ -2,6 +2,9 @@ body {
   background: #e5e6e5;
   margin: 0px;
 }
+a {
+  text-decoration: none;
+}
 
 .header__container {
   display: flex;
@@ -149,17 +152,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin: 8px;
 }
-.ppt-logo {
+.ppt-logo,
+.pdf-logo {
   width: 50px;
   fill: rgba(40, 16, 15, 0.6);
 }
 .ppt-logo:hover {
-  width: 50px;
-  fill: rgba(40, 16, 15, 1);
-}
-
-.pdf-logo {
   width: 50px;
   fill: rgba(40, 16, 15, 1);
 }
@@ -194,5 +194,56 @@ body {
 
 .elag-map__iframe {
   border: none;
-  margin: 10px;
+  margin: 20px;
+}
+
+.footer__container {
+  background: #373737;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__logo {
+  height: 130px;
+  opacity: 1;
+}
+.footer__logo:hover {
+  opacity: 0.4;
+}
+.footer-link {
+  text-decoration: none;
+  color: rgb(229, 230, 229, 0.8);
+  font-family: Lato-light, cronos-pro, zeitung-mono, sans-serif;
+  font-size: 17px;
+}
+.footer-link:hover {
+  color: white;
+}
+.footer__button {
+  font-family: zeitung-mono, lato-light, cronos-pro, sans-serif;
+  text-decoration: none;
+  color: #e5e6e5;
+  text-align: center;
+  padding: 20px 40px;
+  background: rgba(65, 104, 172, 1);
+}
+.footer__button:hover {
+  background: rgba(65, 104, 172, 0.6);
+}
+
+.SocialLinks__logo {
+  height: 30px;
+  margin: 8px;
+  fill: rgba(219, 219, 219, 0.7);
+}
+
+.SocialLinks__logo:hover {
+  fill: rgba(219, 219, 219, 1);
 }
