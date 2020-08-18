@@ -71,7 +71,7 @@ a {
 
 .Hero__title {
   font-family: lato, cronos-pro, zeitung-mono, sans-serif;
-  font-size: 40px;
+  font-size: 34px;
   color: rgba(40, 16, 15, 1);
   margin: 12px 0px 0px 50px;
 }
@@ -101,7 +101,7 @@ a {
   opacity: 0.75;
 }
 .wangari-thumbnail {
-  background: url("./assets/thumbnails/wangari-thumbnail.jpg");
+  background: url("./assets/thumbnails/wmathaai-thumbnail.jpg");
   background-size: cover;
 }
 .earthSystems-thumbnail {
@@ -157,11 +157,11 @@ a {
 .ppt-logo,
 .pdf-logo {
   width: 50px;
-  fill: rgba(40, 16, 15, 0.6);
+  fill: rgba(183, 71, 43, 1);
 }
 .ppt-logo:hover {
   width: 50px;
-  fill: rgba(40, 16, 15, 1);
+  fill: rgba(183, 71, 43, .6);
 }
 
 .Partners {
