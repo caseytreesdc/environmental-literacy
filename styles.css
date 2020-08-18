@@ -5,7 +5,9 @@ body {
 a {
   text-decoration: none;
 }
-
+h2 {
+  margin: 0;
+}
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -161,7 +163,7 @@ a {
 }
 .ppt-logo:hover {
   width: 50px;
-  fill: rgba(183, 71, 43, .6);
+  fill: rgba(183, 71, 43, 0.6);
 }
 
 .Partners {
@@ -170,11 +172,18 @@ a {
   justify-content: center;
   align-items: center;
 }
+.Partners-sec {
+  display: flex;
+  flex-direction: row;
+}
+.Partners-col {
+  margin: 0px 30px;
+}
 .Partners__title {
   font-family: lato, cronos-pro, zeitung-mono, sans-serif;
   font-size: 30px;
   color: rgba(40, 16, 15, 1);
-  margin: 12px 0px 0px 50px;
+  text-align: center;
 }
 .Partners__logos-orgs {
   display: flex;
