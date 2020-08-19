@@ -103,7 +103,7 @@ h2 {
   opacity: 0.75;
 }
 .wangari-thumbnail {
-  background: url("./assets/thumbnails/wmathaai-thumbnail.jpg");
+  background: url("./assets/thumbnails/wangari_mathai-thumbnail2.jpg");
   background-size: cover;
 }
 .earthSystems-thumbnail {
@@ -165,6 +165,34 @@ h2 {
   width: 50px;
   fill: rgba(183, 71, 43, 0.6);
 }
+.Supplemental {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.Supplemental__title {
+  font-family: lato, cronos-pro, zeitung-mono, sans-serif;
+  font-size: 30px;
+  color: rgba(40, 16, 15, 1);
+  text-align: center;
+}
+
+.upcoming-thumbnail__1 {
+  background: url("./assets/thumbnails/upcoming-thumbnail1.jpg");
+  background-size: cover;
+}
+
+.upcoming-thumbnail__2 {
+  background: url("./assets/thumbnails/upcoming-thumbnail2.jpg");
+  background-size: cover;
+}
+
+.upcoming-thumbnail__3 {
+  background: url("./assets/thumbnails/upcoming-thumbnail3.jpg");
+  background-size: cover;
+}
 
 .Partners {
   display: flex;
@@ -191,7 +219,12 @@ h2 {
   align-items: center;
   justify-content: space-evenly;
 }
-
+.Partners__description {
+  font-family: lato, zeitung-mono, cronos-pro, sans-serif;
+  font-size: 18px;
+  color: rgba(40, 16, 15, 1);
+  margin: 0px 75px;
+}
 .Partners__logos-schools {
   width: 75vw;
   display: flex;
@@ -200,7 +233,17 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-
+.Map__description {
+  font-family: lato, zeitung-mono, cronos-pro, sans-serif;
+  font-size: 14px;
+  color: rgba(40, 16, 15, 1);
+  margin: 0px 75px;
+  display: flex;
+  align-items: center;
+}
+.gmaps-icon {
+  width: 30px;
+}
 .elag-map__iframe {
   border: none;
   margin: 20px;
