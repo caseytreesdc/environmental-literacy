@@ -170,7 +170,7 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 20px 0;
+  margin: 20px 120px;
 }
 .Supplemental__title {
   font-family: lato, cronos-pro, zeitung-mono, sans-serif;
