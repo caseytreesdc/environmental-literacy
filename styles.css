@@ -194,6 +194,15 @@ h2 {
   background-size: cover;
 }
 
+.instructor-thumbnail__1 {
+  background: url("./assets/thumbnails/KD-thumbnail.PNG");
+  background-size: cover;
+}
+.instructor-thumbnail__2 {
+  background: url("./assets/thumbnails/RD-thumbnail.PNG");
+  background-size: cover;
+}
+
 .Partners {
   display: flex;
   flex-direction: column;
