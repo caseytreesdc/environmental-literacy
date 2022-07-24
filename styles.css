@@ -2,20 +2,24 @@ body {
   background: #e5e6e5;
   margin: 0px;
 }
+
 a {
   text-decoration: none;
 }
+
 h2 {
   margin: 0;
 }
+
 .header__container {
   display: flex;
   justify-content: space-between;
+  /* margin: 16px 0; */
+  padding: 20px;
 }
 
 .header-logo {
   width: 200px;
-  margin: 10px;
 }
 
 .Nav__container {
@@ -61,7 +65,8 @@ h2 {
   font-family: zeitung-mono, cronos-pro, lato, sans-serif;
   background: rgb(40, 16, 15);
   color: rgb(255, 255, 255);
-  padding: 1em;
+  padding: 8px 32px;
+  /* margin: 12px 0; */
 }
 
 .Hero__main {
@@ -75,63 +80,93 @@ h2 {
   font-family: lato, cronos-pro, zeitung-mono, sans-serif;
   font-size: 34px;
   color: rgba(40, 16, 15, 1);
-  margin: 12px 0px 0px 50px;
+  margin: 40px;
 }
+
 .Hero__text {
   font-family: cronos-pro, zeitung-mono, lato, sans-serif;
   font-size: 30px;
   color: rgba(40, 16, 15, 1);
   margin: 20px 60px;
 }
+
 .Lessons {
   margin: 50px;
 }
+
+.Lessons>div {
+  margin: 80px 0;
+}
+
 .Lessons__container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 0 20px;
+  margin: 0 20px 0 20px;
+  min-height: 168px;
 }
+
+.Lessons__container>a>div {
+  height: 100%;
+}
+
 .Lessons__thumbnail {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   min-width: 300px;
-  height: 168px;
-  background-repeat: no-repeat;
+  min-height: 150px;
   opacity: 0.75;
 }
+
 .wangari-thumbnail {
   background: url("./assets/thumbnails/wangari_mathai-thumbnail2.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .earthSystems-thumbnail {
   background: url("./assets/thumbnails/earthSystems-thumbnail.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .air-thumbnail {
   background: url("./assets/thumbnails/air-thumbnail.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .detective-thumbnail {
   background: url("./assets/thumbnails/detective-thumbnail.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .arborist-thumbnail {
   background: url("./assets/thumbnails/arborist-thumbnail.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .play-icon {
   fill: rgb(229, 230, 229, 0.8);
 }
+
 .Lessons__thumbnail:hover {
   opacity: 1;
 }
+
 .Lessons__text {
   margin: 0 16px;
 }
+
 .Lessons__heading {
   font-family: zeitung-mono, cronos-pro, lato, sans-serif;
   font-size: 20px;
@@ -142,36 +177,47 @@ h2 {
 .Lessons__description {
   font-family: lato, zeitung-mono, cronos-pro, sans-serif;
   font-size: 18px;
+  /* margin-bottom: 80px; */
   color: rgba(40, 16, 15, 1);
 }
+
 .Lessons__objective {
   font-weight: bold;
   font-family: lato, zeitung-mono, cronos-pro, sans-serif;
   font-size: 18px;
   color: rgba(40, 16, 15, 1);
 }
+
 .logo-links {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: 8px;
 }
+
 .ppt-logo,
 .pdf-logo {
   width: 50px;
   fill: rgba(183, 71, 43, 1);
 }
+
 .ppt-logo:hover {
   width: 50px;
   fill: rgba(183, 71, 43, 0.6);
 }
+
 .Supplemental {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 20px 120px;
 }
+
+.Supplemental a {
+  margin: 20px;
+}
+
 .Supplemental__title {
   font-family: lato, cronos-pro, zeitung-mono, sans-serif;
   font-size: 30px;
@@ -198,6 +244,7 @@ h2 {
   background: url("./assets/thumbnails/KD-thumbnail.PNG");
   background-size: cover;
 }
+
 .instructor-thumbnail__2 {
   background: url("./assets/thumbnails/RD-thumbnail.PNG");
   background-size: cover;
@@ -209,31 +256,41 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
 .Partners-sec {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px 0;
 }
+
 .Partners-col {
   margin: 0px 30px;
 }
+
 .Partners__title {
   font-family: lato, cronos-pro, zeitung-mono, sans-serif;
   font-size: 30px;
   color: rgba(40, 16, 15, 1);
   text-align: center;
 }
+
 .Partners__logos-orgs {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
+
 .Partners__description {
   font-family: lato, zeitung-mono, cronos-pro, sans-serif;
   font-size: 18px;
   color: rgba(40, 16, 15, 1);
   margin: 0px 75px;
 }
+
 .Partners__logos-schools {
   width: 75vw;
   display: flex;
@@ -242,6 +299,7 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+
 .Map__description {
   font-family: lato, zeitung-mono, cronos-pro, sans-serif;
   font-size: 14px;
@@ -250,18 +308,23 @@ h2 {
   display: flex;
   align-items: center;
 }
+
 .gmaps-icon {
   width: 30px;
 }
+
 .elag-map__iframe {
   border: none;
   margin: 20px;
+  max-width: 80vw;
 }
+
 .form__iframe {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .footer__container {
   background: #373737;
   display: flex;
@@ -275,22 +338,27 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
+
 .footer__logo {
   height: 130px;
   opacity: 1;
 }
+
 .footer__logo:hover {
   opacity: 0.4;
 }
+
 .footer-link {
   text-decoration: none;
   color: rgb(229, 230, 229, 0.8);
   font-family: Lato-light, cronos-pro, zeitung-mono, sans-serif;
   font-size: 17px;
 }
+
 .footer-link:hover {
   color: white;
 }
+
 .footer__button {
   font-family: zeitung-mono, lato-light, cronos-pro, sans-serif;
   text-decoration: none;
@@ -299,6 +367,7 @@ h2 {
   padding: 20px 40px;
   background: rgba(65, 104, 172, 1);
 }
+
 .footer__button:hover {
   background: rgba(65, 104, 172, 0.6);
 }
@@ -311,4 +380,16 @@ h2 {
 
 .SocialLinks__logo:hover {
   fill: rgba(219, 219, 219, 1);
+}
+
+@media only screen and (max-width: 800px) {
+  .Lessons__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Lessons__container>a>div {
+    width: 80vw;
+    height: 300px;
+  }
 }
